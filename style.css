@@ -1,0 +1,347 @@
+body{
+    background-color: #FCF3CF ;
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+/*header section*/
+header {
+    background: #4A235A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+header h1{
+    background-color: #884EA0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 0px 30px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.logo-highlight{
+    color: #F9E79F ;
+}
+
+nav ul {
+    display: flex;
+    justify-content:center;
+    list-style-type:none;
+}
+  
+nav li a {
+    color: white ;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+    padding: 15px;
+}
+/*End of header section*/
+
+/*about Front page + intro*/
+.front-page {
+    display: flex;
+    align-items: center;
+}
+
+.front-content{
+    position: absolute;
+    color: white;
+    width: 30%;
+    right: 12px;
+    visibility: hidden;
+}
+
+.front-page:hover{
+    opacity: 0.8;
+}
+
+.front-page:hover .front-content{
+    visibility: visible;
+}
+
+.selfie{
+    opacity: 1;
+    width: 100%;
+    height: auto;
+}
+
+.position-title{
+    border: 5px solid white;
+    text-align: center;
+    padding: 0px 15px; 
+    font-size: 2vw;
+}
+
+.about-me {
+    padding: 10px;
+    font-size: 2vw;
+}
+
+p{
+    line-height: 1.3;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+#readmore{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+/*End of Front page section*/
+
+/*Parts header*/
+.section-header{
+    display: flex;
+    padding: 20px 0px;
+    background: #A569BD;
+}
+
+.section-h2{
+    width: 100%;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*WORK part*/
+.previous-work {
+    display: flex;
+    align-items: center;
+}
+
+.previous-work img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.portfolio-text {
+    background: #884EA0;
+    color: #F9E79F;
+    position: absolute;
+    white-space: nowrap;
+    font-size: 30px;
+    z-index: 1;
+    bottom: 150px;
+}
+
+.previous-work:hover img {
+    opacity: 0.7;
+}
+
+.previous-work:hover .floating a .portfolio-text {
+    background-color: black;
+    color: white;
+}
+
+.floating {
+    position: relative;
+}
+/*End of Work Part*/
+
+/*Flight log Part*/
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .fade-1{
+      display:block ;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .gallery-property {
+    text-align: center;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+/*End of Flight log Part*/
+
+/*Contacts part*/
+.contact-section {
+    max-width: 100%;
+    width: 600px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+  
+.info-row{
+    margin-bottom: 20px;
+    align-items: center; 
+}
+
+.info-row input,textarea {
+  width: 100%;
+  outline: none;
+  padding: 10px 5px 10px 5px;
+  margin: 5px 5px 5px 5px;
+  border-bottom: 5px solid #17202A ;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 0px solid transparent;
+  background-color: transparent;
+}
+
+.info-row input:focus, textarea:focus {
+  border-bottom: 5px solid #A569BD;
+}
+
+.checkbox{
+    font-size: 15px;
+}
+
+button {
+    padding: 5px 40px;
+    background: #17202A;
+    color: white;
+}
+  
+button:hover {
+    background: white;
+    color: #17202A;
+    cursor: pointer;
+}
+
+/*Footer Part*/
+footer {
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+    font-style: italic;
+    background: #4A235A;
+    color: white;
+    padding: 25px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+  
+  .social-media img {
+    padding: 10px;
+}
+
+/*to resize the browser*/
+@media screen and (min-width: 2800px) {
+    body {
+      max-width: 2800px;
+      margin: auto;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    nav {
+        font-size: 50%;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .nav li a {
+        padding: 5px 5px;
+    }
+    
+}

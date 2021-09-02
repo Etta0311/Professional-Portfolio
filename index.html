@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Etta Ho</title>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="Gallery-JS.js"></script>
+  </head>
+
+  <body> 
+    <header>
+      <h1>Etta's <span class="logo-highlight">ePortfolio</span></h1>
+
+      <nav>
+        <ul>
+          <li><a href="#About-Me">ABOUT ME</a></li>
+          <li><a href="#WORK">WORK</a></li>
+          <li><a href="#gallery">FLIGHT LOG</a></li>
+          <li><a href="#Contacts">CONTACTS</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="front-page" id="About-Me">
+          <img class="selfie"
+          src="images/ettaho.JPG" alt="Etta's selfie"/>
+
+        <div class="front-content">
+          <h2 class="position-title">Sydney-based Pilot & <br> Front End developer</h2>
+          <h3 class="about-me">
+            ABOUT ME
+          </h3>
+          <p>Hi I'm Etta. Nice to meet you.</p>
+          <p>I graduated as an aviation student from UNSW in 2021 and
+             also got my flying license during my study.</p>
+          <p>I'm currently learning to be a Full Steak developer and
+            doing some self-study on languages.
+          </p>
+          <p>Coding works like another form of lauguage for me to work out projects with computer.
+            I'm enjoying my way to get on top of coding.<br> Wish me luck!
+          </p>
+          <p id= "readmore">❧Read more about me☙</p>
+        </div>
+      </div>
+
+      <div class="section-header" id="WORK">
+        <h2 class="section-h2">WORK</h2>
+      </div>
+
+      <div class="previous-work">
+        <section>
+          <a href=" https://etta0311.github.io/wk1-Homework/Develop/">
+            <img src="images/horiseon.png" alt="first project--horiseon"/>
+          </a>
+
+          <div class="floating">
+            <a href="https://etta0311.github.io/wk1-Homework/Develop/">
+              <h3 class="portfolio-text">First project</h3>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <div class="section-header" id="gallery">
+        <h2 class="section-h2">FLIGHT LOG</h2>
+      </div>
+
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade-1">
+          <div class="numbertext">1 / 5</div>
+          <img src="images/01.jpg" style="width:100%">
+          <div class="text">In Flight</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="images/02.jpg" style="width:100%">
+          <div class="text">sunset at airport</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="images/03.JPG" style="width:100%">
+          <div class="text">Sydney CBD Flight</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="images/04.jpg" style="width:100%">
+          <div class="text">Melb The 12 Apostles</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="images/05.jpg" style="width:100%">
+          <div class="text">Jet simulator training</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div class="gallery-property">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
+      <div class="section-header" id="Contacts">
+        <h2 class="section-h2">CONTACTS</h2>
+      </div>
+
+      <div class="contact-section">
+          <div class="info-row">
+            <label class="firstname" for="fname"></label>
+            <input type="text" id="fname" name="fname" placeholder="First name"/>
+          </div>
+
+          <div class="info-row">
+            <label for="lname"></label>
+            <input type="text" id="lname" name="lname" placeholder="Last name"/>
+          </div>
+
+          <div class="info-row">
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email" />
+          </div>
+
+          <div class="info-row">
+            <label for="message"></label>
+            <textarea type="text" id="message"
+              name="message" placeholder="Write your message here.">
+            </textarea>
+          </div>
+
+          <div class="info-row">
+            <p class="checkbox">
+              <input class="checkbox" id="agreement" type="checkbox" />
+              <label for="agreement">I agree to share my e-mail address with etta.</label>
+            </p>
+          </div>
+
+          <button>Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+       <h3>Find me on</h3>
+       <div class="social-media">
+        <a href="https://www.instagram.com/simplyhcy/">
+          <img src="images/igicon.png" alt="instagram"/>
+        </a>
+
+        <a href="https://www.facebook.com/etta.ho/">
+          <img src="images/FBicon.png" alt="facebook"/>
+        </a>
+
+        <a href="https://twitter.com/simplyhcy">
+          <img src="images/twittericon.png" alt="twitter"/>
+        </a>
+
+        <a href="https://github.com/Etta0311">
+          <img src="images/github.png" alt="github"/>
+        </a>
+      </div>
+       <h4>Etta Ho &copy; 2021</h4>
+    </footer>
+  </body>
+</html>
