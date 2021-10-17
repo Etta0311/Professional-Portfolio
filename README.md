@@ -1,6 +1,6 @@
 # Homework 02 Portfolio
 
-Links: [Etta's ePortfolio](https://etta0311.github.io/wk2-Homework/)
+Links: [Etta's ePortfolio](https://etta0311.github.io/Professional-Portfolio/)
 
 ## Description
 
