@@ -122,6 +122,32 @@ p{
 }
 
 /*WORK part*/
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    display: inline-flex;
+    text-align: center;
+    font-size: 30px;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px;
+}
+
+.card img {
+    width: 100%;
+}
+  
+.card:hover {
+    box-shadow: 0 10px 20px 0 rgba(202, 100, 250, 0.2);
+}
+
+.container {
+    padding: 5px 16px;
+    line-height: 35px;
+}
+
 .previous-work {
     display: block;
     align-items: center;
@@ -329,10 +355,16 @@ h5 {
 }
 
 /*to resize the browser*/
-@media screen and (min-width: 2800px) {
+@media screen and (min-width: 1024px) {
     body {
       max-width: 2800px;
       margin: auto;
+    }
+
+    .card {
+        width: 44vw;
+        min-height: 600px;
+        display: inline-flex;
     }
 }
   
@@ -349,4 +381,8 @@ h5 {
         padding: 5px 5px;
     }
     
+    .card {
+        display: block;
+        width: 100%;
+    }
 }
