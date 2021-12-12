@@ -1,10 +1,8 @@
-# Homework 02 Portfolio
+# Professional Portfolio
 
 Links: [Etta's ePortfolio](https://etta0311.github.io/Professional-Portfolio/)
 
 ## Description
-
-In this task, I am required to build up a my personal portfolio from scratch.
 HTML and CSS helps me on building the basic elements needed for the website, and I added Javascript properties to my gallery as extras.
 Thoughout the whole project, I was stucked at first on getting confuse about how the flexbox and div works,
 this takes me for a few days to figure it out.
